@@ -3,28 +3,27 @@
 	font-size: 1.1em;
 }
 
-/*.container {
-	margin: 50px;
-}*/
+#big-section > div {
+	padding: 35px;
+}
 
-.row > div {
-	padding: 50px;
+h2 {
+	font-weight: bold;
+}
+
+h1.name {
+	font-weight: normal;
+	font-size: 3em;
 }
 
 #rightbar {
 	text-align: center;
+	position:fixed;
+	right: 35px;
 }
 
 ul.list-group li {
-	font-size: 0.6em;
-}
-
-.nav-tabs {
-	font-size: 0.8em;
-}
-
-.tab-pane p {
-	font-size: 0.9em;
+	font-size: 0.75em;
 }
 
 #me {
@@ -34,4 +33,14 @@ ul.list-group li {
 
 a.emoji-link:hover > span.no-underline {
 	text-decoration: none;
+}
+
+.fancybox-inner {
+	font-size: 1em;
+	text-align: center;
+}
+
+.project {
+	padding: 10px;
+	text-align: center;
 }
