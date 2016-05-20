@@ -1,79 +1,37 @@
-body {
-	font-family: "Trebuchet MS";
+* {
+	font-family: Quicksand;
+	font-size: 1.1em;
+}
+
+/*.container {
+	margin: 50px;
+}*/
+
+.row > div {
+	padding: 50px;
+}
+
+#rightbar {
 	text-align: center;
-	background-color: #eeeeee;
 }
 
-/* div {
-	border-style: solid;
-	border-width: 1px;
-} */
-
-#container {
-	overflow: auto;
-	background-color: #ffffff;
-	margin: auto;
-	margin-top: 100px;
-	width: 800px;
-	text-align: left;
-	border-radius: 10px;
+ul.list-group li {
+	font-size: 0.6em;
 }
 
-.cell {
-	padding: 15px;
+.nav-tabs {
+	font-size: 0.8em;
 }
 
-#content {
-	width: 75%;
-
-	float: left;
-}
-
-#title {
-	padding-bottom: 5px;
-}
-
-#info {
-	padding-top: 0px;
-}
-
-#media {
-	/* width: 29%; */
-	float: right;
-	text-align: center;
+.tab-pane p {
+	font-size: 0.9em;
 }
 
 #me {
-	width: 150px;
-	height: 150px;
+	width: 100%;
 	border-radius: 10px;
 }
 
-#links p {
-	font-size: 1.2em;
-	margin-bottom: 3px;
-}
-
-a:link, a:visited {
+a.emoji-link:hover > span.no-underline {
 	text-decoration: none;
-	color: #009FF5;
-}
-
-a:hover {
-	text-decoration: underline;
-}
-
-#links p a:hover {
-	text-decoration: none;
-	font-style: italic;
-}
-
-h1, h2, h3, p {
-	margin: 0px;
-	padding: 0px;
-}
-
-h1 {
-	font-weight: 700;
-	font-size: 2.5em;
 }
