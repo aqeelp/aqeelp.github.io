@@ -1,46 +1,79 @@
-* {
-	font-family: Quicksand;
-	font-size: 1.1em;
-}
-
-#big-section > div {
-	padding: 35px;
-}
-
-h2 {
-	font-weight: bold;
-}
-
-h1.name {
-	font-weight: normal;
-	font-size: 3em;
-}
-
-#rightbar {
+body {
+	font-family: "Trebuchet MS";
 	text-align: center;
-	position:fixed;
-	right: 35px;
+	background-color: #eeeeee;
 }
 
-ul.list-group li {
-	font-size: 0.75em;
-}
+/* div {
+	border-style: solid;
+	border-width: 1px;
+} */
 
-#me {
-	width: 100%;
+#container {
+	overflow: auto;
+	background-color: #ffffff;
+	margin: auto;
+	margin-top: 100px;
+	width: 800px;
+	text-align: left;
 	border-radius: 10px;
 }
 
-a.emoji-link:hover > span.no-underline {
+.cell {
+	padding: 15px;
+}
+
+#content {
+	width: 75%;
+
+	float: left;
+}
+
+#title {
+	padding-bottom: 5px;
+}
+
+#info {
+	padding-top: 0px;
+}
+
+#media {
+	/* width: 29%; */
+	float: right;
+	text-align: center;
+}
+
+#me {
+	width: 150px;
+	height: 150px;
+	border-radius: 10px;
+}
+
+#links p {
+	font-size: 1.2em;
+	margin-bottom: 3px;
+}
+
+a:link, a:visited {
 	text-decoration: none;
+	color: #009FF5;
 }
 
-.fancybox-inner {
-	font-size: 1em;
-	text-align: center;
+a:hover {
+	text-decoration: underline;
 }
 
-.project {
-	padding: 10px;
-	text-align: center;
+#links p a:hover {
+	text-decoration: none;
+	font-style: italic;
+}
+
+h1, h2, h3, p {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 2.5em;
 }
